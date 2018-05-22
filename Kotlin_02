@@ -1,0 +1,39 @@
+/**
+ Formas de como representamos números e letras em Kotlin
+ OBS: Estudos iniciais sobre programação usando Kotlin, portanto,
+ o valor aqui é de experiência e não a melhor forma de se fazer!
+ 
+ @autor: Aleister Hills
+ Time/Day: às 01:15 de 22/05/2018
+*/
+
+fun main(args: Array<String>)
+{
+	val byte: Byte = 1
+	val short: Short = 10	
+	val long: Long = 1000000000
+	val float: Float = 100.00f	
+	val double: Double = 100.00	
+	val int: Int = 10000
+	val letra: Char = 'K'
+	val kotlin: Boolean
+	kotlin = true
+	
+	val valString: String = "Olá, sou val; meu comportamento é parecido com o modificador final do Java!";
+	var despedida: String = "ZzZzZzZzzz... ";
+	
+	println("Byte:   "  +byte);
+	println("Short:  " +short);
+	println("Long:   "  +long);
+	println("Float:  "  +float);
+	println("Double: "  +double);
+	println("Int:    "  +int);
+	println("Char:   "  +letra);
+	println(letra);
+	println("$letra");
+	println("$letra" +letra);
+	println("Boolean: "  +kotlin);
+	println("Boolean: "  +"$kotlin");
+	println("Quem é você?\n" +valString);
+	println("Boa noite... " +despedida);
+}
