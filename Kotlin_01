@@ -1,0 +1,11 @@
+/**
+    @autor: Aleister Hills
+    Time/Day: às 01:08 de 22/05/2018
+    
+    OBS: Estudos sobre Kotlin.
+*/
+
+fun main(args: Array<String>)
+{
+  println("Hello, Aleister!");
+}
